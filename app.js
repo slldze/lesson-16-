@@ -6,3 +6,17 @@ for (let i = 0; i < number.length; i++) {
 let average = sum / number.length;
 console.log(sum);
 console.log(average);
+
+let movies = {
+  moviename: "notebook",
+  genre: "romantic",
+  streamingplatforms: ["Mykadri.com", "Imovie.ge", "Adjaranet.com"],
+};
+console.log(movies);
+console.log(
+  movies.moviename +
+    " which is a " +
+    movies.genre +
+    " movie, is available on " +
+    movies.streamingplatforms[0],
+);
