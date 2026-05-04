@@ -20,3 +20,22 @@ console.log(
     " movie, is available on " +
     movies.streamingplatforms[0],
 );
+
+let books = [
+  {
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+    yearpublished: 1925,
+  },
+  {
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    yearpublished: 1960,
+  },
+  {
+    title: "1984",
+    author: "George Orwell",
+    yearpublished: 1948,
+  },
+];
+console.log(books);
